@@ -21,6 +21,10 @@
 
         p {
             margin-bottom: 20px;
+
+            &:last-child {
+                margin-top: 60px;
+            }
         }
 
         &__combos {
@@ -40,7 +44,7 @@
                     height: 60px;
                     font-size: 18px;
                     color: variaveis.$corTextoSecundario;
-                    background-color: #3421ff;
+                    background-color: #6421ff;
                     text-transform: uppercase;
                     border-radius: 4px;
                     margin-top: 2vw;
